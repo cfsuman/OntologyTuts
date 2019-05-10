@@ -27,13 +27,13 @@ class MainActivity : AppCompatActivity() {
         ontSdk.setDefaultConnect(ontSdk.restful)
 
         btn.setOnClickListener {
-            /*doAsync {
+            doAsync {
                 val height = ontSdk.connect.blockHeight
 
                 uiThread {
-                    tv.text = "Block Height: " + height
+                    tvHeight.text = "Block Height: " + height
                 }
-            }*/
+            }
 
 
             doAsync {
